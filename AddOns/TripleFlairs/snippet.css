@@ -1,0 +1,865 @@
+/*user flairs*/
+
+.comment.deleted > .midcol,
+.comment.collapsed> .midcol {
+    display: none
+}
+.flairtemplate .flairrow {
+    margin: 3px
+}
+.titlebox > .tagline > .flair {
+    padding: 0;
+    visibility: visible;
+    margin-top: 0;
+    top: 0;
+    left: 0
+}
+.flair {
+    z-index: -5000px;
+    display: block;
+    width: 142px;
+    height: 44px;
+    top: 6px;
+    left: 60px;
+    border: 0 solid red!important;
+    padding: 0;
+    overflow: hidden;
+    position: absolute;
+    background-repeat: none;
+    background-color: rgba(0, 0, 0, 0);
+    background-repeat: none;
+}
+.res-nightmode .flair {
+    background-color: rgba(0, 0, 0, 0);
+}
+.flairselector.drop-choices.active .flair {
+    z-index: 2000;
+    position: relative;
+}
+.flairselector.drop-choices.active {
+    z-index: 2000;
+}
+.noncollapsed > .entry {
+    min-height: 27px;
+    margin-left: 50px
+}
+.noncollapsed.morechildren {
+    left: 10px
+}
+.res-nightmode.noncollapsed.morechildren {
+    left: 10px
+}
+.noncollapsed.morechildren:before {
+    display: none
+}
+.noncollapsed.morechildren .entry {
+    min-height: 0
+}
+.noncollapsed {
+    position: relative
+}
+.res-nightmode.noncollapsed {
+    position: relative
+}
+.commentarea .sitetable {
+    width: 100%
+}
+.flair:hover {
+    z-index: 9999;
+    font-family: "trebuchet ms"!important;
+    font-style: italic;
+    font-size: 19px!important;
+    color: #91a1a7;
+    position: absolute;
+    border: 1px solid #E1B000;
+    line-height: 45px;
+    width: 900px!important;
+    font-weight: bold;
+    overflow: visible;
+    white-space: initial;
+    font-size: 10px;
+    border: 1px solid red;
+    background-repeat: none;
+    text-indent: 150px;
+    left: 10px;
+    top: -32px!important;
+    background-image: none!important;
+}
+.md h5 {
+    font-family: "inquisition"!important;
+    font-size: 112px!important;
+    color: #967b9f;
+}
+.flair.flair {
+    content: "";
+    width: 142px;
+    height: 44px;
+    top: 6px;
+    left: 60px;
+    border: 0;
+    position: absolute;
+}
+.flair.flair-0 {
+    background: url(%%1%%)0 0
+}
+.flair.flair-d1df1 {
+    background: url(%%1%%)0 -44px
+}
+.flair.flair-d1df3 {
+    background: url(%%1%%)0 -88px
+}
+.flair.flair-d1dm1 {
+    background: url(%%1%%)0 -132px
+}
+.flair.flair-d1dm3 {
+    background: url(%%1%%)0 -176px
+}
+.flair.flair-d1ef1 {
+    background: url(%%1%%)0 -220px
+}
+.flair.flair-d1ef2 {
+    background: url(%%1%%)0 -264px
+}
+.flair.flair-d1ef3 {
+    background: url(%%1%%)0 -308px
+}
+.flair.flair-d1em1 {
+    background: url(%%1%%)0 -352px
+}
+.flair.flair-d1em2 {
+    background: url(%%1%%)0 -396px
+}
+.flair.flair-d1em3 {
+    background: url(%%1%%)0 -440px
+}
+.flair.flair-d1hf1 {
+    background: url(%%1%%)0 -484px
+}
+.flair.flair-d1hf2 {
+    background: url(%%1%%)0 -528px
+}
+.flair.flair-d1hf3 {
+    background: url(%%1%%)0 -572px
+}
+.flair.flair-d1hm1 {
+    background: url(%%1%%)0 -616px
+}
+.flair.flair-d1hm2 {
+    background: url(%%1%%)0 -660px
+}
+.flair.flair-d1hm3 {
+    background: url(%%1%%)0 -704px
+}
+.flair.flair-d2hf1 {
+    background: url(%%1%%)0 -748px
+}
+.flair.flair-d2hf2 {
+    background: url(%%1%%)0 -792px
+}
+.flair.flair-d2hf3 {
+    background: url(%%1%%)0 -836px
+}
+.flair.flair-d2hm1 {
+    background: url(%%1%%)0 -880px
+}
+.flair.flair-d2hm2 {
+    background: url(%%1%%)0 -924px
+}
+.flair.flair-d2hm3 {
+    background: url(%%1%%)0 -968px
+}
+.flair.flair-d3df1 {
+    background: url(%%1%%)0 -1012px
+}
+.flair.flair-d3df3 {
+    background: url(%%1%%)0 -1056px
+}
+.flair.flair-d3dm1 {
+    background: url(%%1%%)0 -1100px
+}
+.flair.flair-d3dm3 {
+    background: url(%%1%%)0 -1144px
+}
+.flair.flair-d3ef1 {
+    background: url(%%1%%)0 -1188px
+}
+.flair.flair-d3ef2 {
+    background: url(%%1%%)0 -1232px
+}
+.flair.flair-d3ef3 {
+    background: url(%%1%%)0 -1276px
+}
+.flair.flair-d3em1 {
+    background: url(%%1%%)0 -1320px
+}
+.flair.flair-d3em2 {
+    background: url(%%1%%)0 -1364px
+}
+.flair.flair-d3em3 {
+    background: url(%%1%%)0 -1408px
+}
+.flair.flair-d3hf1 {
+    background: url(%%1%%)0 -1452px
+}
+.flair.flair-d3hf2 {
+    background: url(%%1%%)0 -1496px
+}
+.flair.flair-d3hf3 {
+    background: url(%%1%%)0 -1540px
+}
+.flair.flair-d3hm1 {
+    background: url(%%1%%)0 -1584px
+}
+.flair.flair-d3hm2 {
+    background: url(%%1%%)0 -1628px
+}
+.flair.flair-d3hm3 {
+    background: url(%%1%%)0 -1672px
+}
+.flair.flair-d3qf1 {
+    background: url(%%1%%)0 -1716px
+}
+.flair.flair-d3qf2 {
+    background: url(%%1%%)0 -1760px
+}
+.flair.flair-d3qf3 {
+    background: url(%%1%%)0 -1804px
+}
+.flair.flair-d3qm1 {
+    background: url(%%1%%)0 -1848px
+}
+.flair.flair-d3qm2 {
+    background: url(%%1%%)0 -1892px
+}
+.flair.flair-d3qm3 {
+    background: url(%%1%%)0 -1936px
+}
+.flair.flair:before {
+    content: "";
+    display: block;
+    width: 142px;
+    height: 44px;
+    top: 0;
+    left: 0
+}
+.flair.flair:hover:before {
+    background-image: none!important;
+}
+.flair.flair-da21-berserker:before {
+    background: url(%%2%%)0 -88px
+}
+.flair.flair-da21-fenris:before {
+    background: url(%%2%%)0 -132px
+}
+.flair.flair-da21-reaver:before {
+    background: url(%%2%%)0 -176px
+}
+.flair.flair-da21-templar:before {
+    background: url(%%2%%)0 -220px
+}
+.flair.flair-da21aveline:before {
+    background: url(%%2%%)0 -264px
+}
+.flair.flair-da22-anders:before {
+    background: url(%%2%%)0 -308px
+}
+.flair.flair-da22-blood-mage:before {
+    background: url(%%2%%)0 -352px
+}
+.flair.flair-da22-force-mage2:before {
+    background: url(%%2%%)0 -396px
+}
+.flair.flair-da22-merrill:before {
+    background: url(%%2%%)0 -440px
+}
+.flair.flair-da22-spirit-healer:before {
+    background: url(%%2%%)0 -484px
+}
+.flair.flair-da23-assassin:before {
+    background: url(%%2%%)0 -528px
+}
+.flair.flair-da23-duelist:before {
+    background: url(%%2%%)0 -572px
+}
+.flair.flair-da23-isabella:before {
+    background: url(%%2%%)0 -616px
+}
+.flair.flair-da23-sebastian:before {
+    background: url(%%2%%)0 -660px
+}
+.flair.flair-da23-shadow:before {
+    background: url(%%2%%)0 -704px
+}
+.flair.flair-da23-tallis:before {
+    background: url(%%2%%)0 -748px
+}
+.flair.flair-da23-varric:before {
+    background: url(%%2%%)0 -792px
+}
+.flair.flair-da2mage-general:before {
+    background: url(%%2%%)0 -836px
+}
+.flair.flair-da2rogue-general:before {
+    background: url(%%2%%)0 -880px
+}
+.flair.flair-da2warrior-general:before {
+    background: url(%%2%%)0 -924px
+}
+.flair.flair-dai12Hweapon:before {
+    background: url(%%2%%)0 -968px
+}
+.flair.flair-dai1battlemaster:before {
+    background: url(%%2%%)0 -1012px
+}
+.flair.flair-dai1champion:before {
+    background: url(%%2%%)0 -1056px
+}
+.flair.flair-dai1reaver:before {
+    background: url(%%2%%)0 -1100px
+}
+.flair.flair-dai1templar:before {
+    background: url(%%2%%)0 -1144px
+}
+.flair.flair-dai1vanguard:before {
+    background: url(%%2%%)0 -1188px
+}
+.flair.flair-dai1w-s:before {
+    background: url(%%2%%)0 -1232px
+}
+.flair.flair-dai2ice:before {
+    background: url(%%2%%)0 -1276px
+}
+.flair.flair-dai2inferno:before {
+    background: url(%%2%%)0 -1320px
+}
+.flair.flair-dai2knight-enchanter:before {
+    background: url(%%2%%)0 -1364px
+}
+.flair.flair-dai2necromancer:before {
+    background: url(%%2%%)0 -1408px
+}
+.flair.flair-dai2rift-mage:before {
+    background: url(%%2%%)0 -1452px
+}
+.flair.flair-dai2spirit:before {
+    background: url(%%2%%)0 -1496px
+}
+.flair.flair-dai2storm:before {
+    background: url(%%2%%)0 -1540px
+}
+.flair.flair-dai3archery:before {
+    background: url(%%2%%)0 -1584px
+}
+.flair.flair-dai3artificer:before {
+    background: url(%%2%%)0 -1628px
+}
+.flair.flair-dai3assassin:before {
+    background: url(%%2%%)0 -1672px
+}
+.flair.flair-dai3sabotage:before {
+    background: url(%%2%%)0 -1716px
+}
+.flair.flair-dai3subterfuge:before {
+    background: url(%%2%%)0 -1760px
+}
+.flair.flair-dai3tempest:before {
+    background: url(%%2%%)0 -1804px
+}
+.flair.flair-dao1berserker:before {
+    background: url(%%2%%)0 -1848px
+}
+.flair.flair-dao1champion:before {
+    background: url(%%2%%)0 -1892px
+}
+.flair.flair-dao1guardian:before {
+    background: url(%%2%%)0 -1936px
+}
+.flair.flair-dao1spirit-warrior:before {
+    background: url(%%2%%)0 -1980px
+}
+.flair.flair-dao1templar:before {
+    background: url(%%2%%)0 -2024px
+}
+.flair.flair-dao2arcane-warrior:before {
+    background: url(%%2%%)0 -2068px
+}
+.flair.flair-dao2battlemage:before {
+    background: url(%%2%%)0 0
+}
+.flair.flair-dao2blood-mage:before {
+    background: url(%%2%%)0 -2112px
+}
+.flair.flair-dao2keeper:before {
+    background: url(%%2%%)0 -2156px
+}
+.flair.flair-dao2shapeshifter:before {
+    background: url(%%2%%)0 -2200px
+}
+.flair.flair-dao2spirit-healer:before {
+    background: url(%%2%%)0 -2244px
+}
+.flair.flair-dao3assassin:before {
+    background: url(%%2%%)0 -2288px
+}
+.flair.flair-dao3bard:before {
+    background: url(%%2%%)0 -2332px
+}
+.flair.flair-dao3duelist:before {
+    background: url(%%2%%)0 -2376px
+}
+.flair.flair-dao3ranger:before {
+    background: url(%%2%%)0 -2420px
+}
+.flair.flair-dao3shadow:before {
+    background: url(%%2%%)0 -2464px
+}
+.flair.flair-d2-agressive:before {
+    background: url(%%2%%)-2px -2514px
+}
+.flair.flair-d2-diplomatic:before {
+    background: url(%%2%%)-2px -2563px
+}
+.flair.flair-d2-sarcastic:before {
+    background: url(%%2%%)-2px -2612px
+}
+.flair.flair-d3c-romance:before {
+    background: url(%%2%%)-2px -3477px
+}
+.flair.flair:after {
+    content: "";
+    display: block;
+    width: 143px;
+    height: 44px;
+    top: 0;
+    left: 0;
+    position: absolute
+}
+.flair.flair:hover:after {
+    background-image: none!important;
+}
+.flair.flair-DAI-creature-nug:after {
+    background: url(%%3%%)0 0;
+}
+.flair.flair-c-american:after {
+    background: url(%%3%%)0 -44px
+}
+.flair.flair-c-aveline:after {
+    background: url(%%3%%)0 -88px
+}
+.flair.flair-c-bethany:after {
+    background: url(%%3%%)0 -132px
+}
+.flair.flair-c-brie:after {
+    background: url(%%3%%)0 -176px
+}
+.flair.flair-c-carver:after {
+    background: url(%%3%%)0 -220px
+}
+.flair.flair-c-colby:after {
+    background: url(%%3%%)0 -264px
+}
+.flair.flair-c-cole:after {
+    background: url(%%3%%)0 -308px
+}
+.flair.flair-c-dog:after {
+    background: url(%%3%%)0 -352px
+}
+.flair.flair-c-doubleswiss:after {
+    background: url(%%3%%)0 -396px
+}
+.flair.flair-c-gouda:after {
+    background: url(%%3%%)0 -440px
+}
+.flair.flair-c-jarlsberg:after {
+    background: url(%%3%%)0 -484px
+}
+.flair.flair-c-montereyjack:after {
+    background: url(%%3%%)0 -528px
+}
+.flair.flair-c-nathaniel:after {
+    background: url(%%3%%)0 -572px
+}
+.flair.flair-c-oghren:after {
+    background: url(%%3%%)0 -616px
+}
+.flair.flair-c-parmesean:after {
+    background: url(%%3%%)0 -660px
+}
+.flair.flair-c-parmigano:after {
+    background: url(%%3%%)0 -704px
+}
+.flair.flair-c-roquefort:after {
+    background: url(%%3%%)0 -748px
+}
+.flair.flair-c-sampler:after {
+    background: url(%%3%%)0 -792px
+}
+.flair.flair-c-sten:after {
+    background: url(%%3%%)0 -836px
+}
+.flair.flair-c-stichelton:after {
+    background: url(%%3%%)0 -880px
+}
+.flair.flair-c-swiss:after {
+    background: url(%%3%%)0 -924px
+}
+.flair.flair-c-manchego:after {
+    background: url(%%3%%)0 -968px
+}
+.flair.flair-c-tilst:after {
+    background: url(%%3%%)0 -1012px
+}
+.flair.flair-c-varric:after {
+    background: url(%%3%%)0 -1056px
+}
+.flair.flair-c-vivienne:after {
+    background: url(%%3%%)0 -1100px
+}
+.flair.flair-c-wynne:after {
+    background: url(%%3%%)0 -1144px
+}
+.flair.flair-d3-arcane:after {
+    background: url(%%3%%)0 -1188px
+}
+.flair.flair-d3-attack:after {
+    background: url(%%3%%)0 -1232px
+}
+.flair.flair-d3-bribe:after {
+    background: url(%%3%%)0 -1276px
+}
+.flair.flair-d3-confused:after {
+    background: url(%%3%%)0 -1320px
+}
+.flair.flair-d3-dwarf:after {
+    background: url(%%3%%)0 -1364px
+}
+.flair.flair-d3-elf:after {
+    background: url(%%3%%)0 -1408px
+}
+.flair.flair-d3-end-romance:after {
+    background: url(%%3%%)0 -1452px
+}
+.flair.flair-d3-fear:after {
+    background: url(%%3%%)0 -1496px
+}
+.flair.flair-d3-general:after {
+    background: url(%%3%%)0 -1540px
+}
+.flair.flair-d3-history:after {
+    background: url(%%3%%)0 -1584px
+}
+.flair.flair-d3-human-mage:after {
+    background: url(%%3%%)0 -1628px
+}
+.flair.flair-d3-mad:after {
+    background: url(%%3%%)0 -1672px
+}
+.flair.flair-d3-mage:after {
+    background: url(%%3%%)0 -1716px
+}
+.flair.flair-d3-no:after {
+    background: url(%%3%%)0 -1760px
+}
+.flair.flair-d3-politics:after {
+    background: url(%%3%%)0 -1804px
+}
+.flair.flair-d3-qunari:after {
+    background: url(%%3%%)0 -1848px
+}
+.flair.flair-d3-rogue:after {
+    background: url(%%3%%)0 -1892px
+}
+.flair.flair-d3-romance:after {
+    background: url(%%3%%)0 -1936px
+}
+.flair.flair-d3-sad:after {
+    background: url(%%3%%)0 -1980px
+}
+.flair.flair-d3-secrets:after {
+    background: url(%%3%%)0 -2024px
+}
+.flair.flair-d3-special:after {
+    background: url(%%3%%)0 -2068px
+}
+.flair.flair-d3-tough:after {
+    background: url(%%3%%)0 -2112px
+}
+.flair.flair-d3-warrior:after {
+    background: url(%%3%%)0 -2156px
+}
+.flair.flair-d3-yes:after {
+    background: url(%%3%%)0 -2200px
+}
+.flair.flair-r-0-none:after {
+    background: url(%%3%%)0 -2244px
+}
+.flair.flair-r-alistair:after {
+    background: url(%%3%%)0 -2288px
+}
+.flair.flair-r-anders:after {
+    background: url(%%3%%)0 -2332px
+}
+.flair.flair-r-blackwall:after {
+    background: url(%%3%%)0 -2376px
+}
+.flair.flair-r-bull:after {
+    background: url(%%3%%)0 -2420px
+}
+.flair.flair-r-c-shale:after {
+    background: url(%%3%%)0 -2464px
+}
+.flair.flair-r-cassandra:after {
+    background: url(%%3%%)0 -2508px
+}
+.flair.flair-r-cheese:after {
+    background: url(%%3%%)0 -2552px
+}
+.flair.flair-r-cullen:after {
+    background: url(%%3%%)0 -2596px
+}
+.flair.flair-r-dorian:after {
+    background: url(%%3%%)0 -2640px
+}
+.flair.flair-r-egg:after {
+    background: url(%%3%%)0 -2684px
+}
+.flair.flair-r-fenris:after {
+    background: url(%%3%%)0 -2728px
+}
+.flair.flair-r-harding:after {
+    background: url(%%3%%)0 -2772px
+}
+.flair.flair-r-isabela:after {
+    background: url(%%3%%)0 -2816px
+}
+.flair.flair-r-josephine:after {
+    background: url(%%3%%)0 -2860px
+}
+.flair.flair-r-leliana:after {
+    background: url(%%3%%)0 -2904px
+}
+.flair.flair-r-loghain:after {
+    background: url(%%3%%)0 -2948px
+}
+.flair.flair-r-merrill:after {
+    background: url(%%3%%)0 -2992px
+}
+.flair.flair-r-morrigan:after {
+    background: url(%%3%%)0 -3036px
+}
+.flair.flair-r-sebastian:after {
+    background: url(%%3%%)0 -3080px
+}
+.flair.flair-r-sera:after {
+    background: url(%%3%%)0 -3124px
+}
+.flair.flair-r-solas:after {
+    background: url(%%3%%)0 -3168px
+}
+.flair.flair-c-tallis:after {
+    background: url(%%3%%)0 -3212px
+}
+.flair.flair-r-zevran:after {
+    background: url(%%3%%)0 -3256px
+}
+.flair.flair-s-aeducan:after {
+    background: url(%%3%%)0 -3300px
+}
+.flair.flair-s-alamarri:after {
+    background: url(%%3%%)0 -3344px
+}
+.flair.flair-s-amaranthine:after {
+    background: url(%%3%%)0 -3388px
+}
+.flair.flair-s-amell-family:after {
+    background: url(%%3%%)0 -3432px
+}
+.flair.flair-s-andraste:after {
+    background: url(%%3%%)0 -3476px
+}
+.flair.flair-s-antivancrows:after {
+    background: url(%%3%%)0 -3520px
+}
+.flair.flair-s-chantry:after {
+    background: url(%%3%%)0 -3564px
+}
+.flair.flair-s-chantry-v2:after {
+    background: url(%%3%%)0 -3608px
+}
+.flair.flair-s-circle-of-magi:after {
+    background: url(%%3%%)0 -3652px
+}
+.flair.flair-s-circle-of-magi-DA2:after {
+    background: url(%%3%%)0 -3696px
+}
+.flair.flair-s-cousland:after {
+    background: url(%%3%%)0 -3740px
+}
+.flair.flair-s-dalish-A:after {
+    background: url(%%3%%)0 -3784px
+}
+.flair.flair-s-dalish-A-v2:after {
+    background: url(%%3%%)0 -3828px
+}
+.flair.flair-s-dalish-B:after {
+    background: url(%%3%%)0 -3872px
+}
+.flair.flair-s-dalish-sabrae-clan:after {
+    background: url(%%3%%)0 -3916px
+}
+.flair.flair-s-denerim:after {
+    background: url(%%3%%)0 -3960px
+}
+.flair.flair-s-dragonspeak:after {
+    background: url(%%3%%)0 -4004px
+}
+.flair.flair-s-dwarvenmerchants:after {
+    background: url(%%3%%)0 -4048px
+}
+.flair.flair-s-freemen-of-the-dales:after {
+    background: url(%%3%%)0 -4092px
+}
+.flair.flair-s-grey-wardens:after {
+    background: url(%%3%%)0 -4136px
+}
+.flair.flair-s-gwaren:after {
+    background: url(%%3%%)0 -4180px
+}
+.flair.flair-s-hawke:after {
+    background: url(%%3%%)0 -4224px
+}
+.flair.flair-s-healers-DA2:after {
+    background: url(%%3%%)0 -4268px
+}
+.flair.flair-s-highever:after {
+    background: url(%%3%%)0 -4312px
+}
+.flair.flair-s-house-harrowmont:after {
+    background: url(%%3%%)0 -4356px
+}
+.flair.flair-s-imperial-chantry:after {
+    background: url(%%4%%)0 -4400px
+}
+.flair.flair-s-inquisition:after {
+    background: url(%%4%%)0 -4444px
+}
+.flair.flair-s-kirkwall:after {
+    background: url(%%4%%)0 -4488px
+}
+.flair.flair-s-legion-of-the-dead:after {
+    background: url(%%4%%)0 -4532px
+}
+.flair.flair-s-leliana:after {
+    background: url(%%4%%)0 -4576px
+}
+.flair.flair-s-nevarra-DAI:after {
+    background: url(%%4%%)0 -4620px
+}
+.flair.flair-s-orlais:after {
+    background: url(%%4%%)0 -4664px
+}
+.flair.flair-s-orlais-v2:after {
+    background: url(%%4%%)0 -4708px
+}
+.flair.flair-s-qunari:after {
+    background: url(%%4%%)0 -4752px
+}
+.flair.flair-s-raiders-of-the-waking-sea:after {
+    background: url(%%4%%)0 -4796px
+}
+.flair.flair-s-redcliffe:after {
+    background: url(%%4%%)0 -4840px
+}
+.flair.flair-s-resolutionists:after {
+    background: url(%%4%%)0 -4884px
+}
+.flair.flair-s-rivain-v1:after {
+    background: url(%%4%%)0 -4928px
+}
+.flair.flair-s-rivain-v2:after {
+    background: url(%%4%%)0 -4972px
+}
+.flair.flair-s-rivain-v3:after {
+    background: url(%%4%%)0 -5016px
+}
+.flair.flair-s-seekers:after {
+    background: url(%%4%%)0 -5060px
+}
+.flair.flair-s-serault:after {
+    background: url(%%4%%)0 -5104px
+}
+.flair.flair-s-shaperate:after {
+    background: url(%%4%%)0 -5148px
+}
+.flair.flair-s-so-pretty:after {
+    background: url(%%4%%)0 -5192px
+}
+.flair.flair-s-starkhaven-v1:after {
+    background: url(%%4%%)0 -5236px
+}
+.flair.flair-s-templar-order:after {
+    background: url(%%4%%)0 -5280px
+}
+.flair.flair-s-tevinter-imperium:after {
+    background: url(%%4%%)0 -5324px
+}
+.flair.flair-s-theirin:after {
+    background: url(%%4%%)0 -5368px
+}
+.flair.flair-s-venatori:after {
+    background: url(%%4%%)0 -5412px
+}
+.flair.flair-s-viscount_s-keep-kirkwall:after {
+    background: url(%%4%%)0 -5456px
+}
+.flair.flair-s-wardencommander:after {
+    background: url(%%4%%)0 -5500px
+}
+.flair.flair-s-wardens-orlais:after {
+    background: url(%%4%%)0 -5544px
+}
+.flair.flair-s-warrior:after {
+    background: url(%%4%%)0 -5588px
+}
+.flair.flair-z-calpernia:after {
+    background: url(%%4%%)0 -5632px
+}
+.flair.flair-z-celene:after {
+    background: url(%%4%%)0 -5676px
+}
+.flair.flair-z-fiona:after {
+    background: url(%%4%%)0 -5720px
+}
+.flair.flair-z-florianne:after {
+    background: url(%%4%%)0 -5764px
+}
+.flair.flair-z-gaspard:after {
+    background: url(%%4%%)0 -5808px
+}
+.flair.flair-z-meredith:after {
+    background: url(%%4%%)0 -5852px
+}
+.flair.flair-z-orzino:after {
+    background: url(%%4%%)0 -5896px
+}
+.flair.flair-z-petrice:after {
+    background: url(%%4%%)0 -5940px
+}
+.flair.flair-z-samson:after {
+    background: url(%%4%%)0 -5984px
+}
+.flair.flair-z-serbarris:after {
+    background: url(%%4%%)0 -6028px
+}
+.flair.flair-r-abelas:after {
+    background: url(%%4%%)0 -6072px
+}
+.flair.flair-r-cory:after {
+    background: url(%%4%%)0 -6207px
+}
+.flair.flair-s-kirkwall-red:after {
+    background: url(%%4%%)0 -6116px
+}
+.flair.flair-macncheese:after {
+    background: url(%%4%%)0 -6160px
+}
